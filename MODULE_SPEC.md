@@ -295,6 +295,41 @@ selection; final scorecard.
 
 ---
 
+## Module 11 — Server and agent upgrades (`11_upgrade`)
+Teach: routine upgrade cadence; server-first order; Admin → Update Servers
+(select servers, pick release, schedule ASAP or datetime, states Pending →
+In Progress → Success/Error, brief console disconnect); Docker caveat (console
+feature does not work; `docker compose pull` +
+`docker compose --profile openuem up --force-recreate -d --build`); Admin →
+Update Agents (console checks every 6 hours and at service start, bulk select,
+release, schedule, Pending/error/success, rollback by selecting the previous
+release, dashboard outdated vs upgradable counts); pre/post checklists.
+Figures: upgrade path decision; console-driven agent upgrade sequence.
+
+Lab themes (6): outdated/upgradable classification; upgrade path selection;
+maintenance-window eligibility; task state validation; rollback target;
+post-upgrade checklist.
+
+## Module 12 — RustDesk remote desktop (`12_rustdesk`)
+Teach: remote assistance paths (VNC for Windows and Linux X11, RDP for
+Linux Wayland/Gnome, RustDesk for Windows/Linux/macOS); hbbs ID server, hbbr
+relay, `id_ed25519.pub`; Docker deployment (`oss.yml`, or `docker run` with
+`--net=host` and `-v ./data:/root`); ports 21115 TCP, 21116 TCP+UDP, 21117 TCP,
+21118/21119 web (keep closed), 21114 Pro web console; UFW rules; Windows MSI,
+Linux `.deb`, macOS `.dmg` plus Screen Recording/Accessibility; client Network
+settings (ID server required, key required, relay optional, API for Pro);
+OpenUEM 0.10.0+ org RustDesk tab (relay, ID server, public key, permanent
+password → random per session).
+Figures: connection path; console-initiated session sequence.
+
+Lab themes (6): mandatory port check; base64 key validation; client config
+completeness; direct/relay/blocked routing; org settings readiness; OS
+permission checklist.
+
+**English edition:** every module also ships `README.en.md`,
+`explanation.en.md`, `exercise.en.md` and `solution.en.md` — faithful
+translations with identical code, tables and fixtures. `lab.py` is shared.
+
 ## Acceptance gate (run before you answer)
 ```
 python3 modules/NN_slug/lab.py

@@ -21,6 +21,8 @@ MODULE_DESCRIPTIONS = {
     "08_patch_automation": "Update visibility, windows, validation, compliance",
     "09_reporting_troubleshooting": "Reports, dashboard triage, layered diagnosis",
     "10_capstone": "Two-site, three-platform end-to-end scenario",
+    "11_upgrade": "Server and agent upgrades, scheduling, rollback",
+    "12_rustdesk": "RustDesk server, client setup, remote desktop",
 }
 
 

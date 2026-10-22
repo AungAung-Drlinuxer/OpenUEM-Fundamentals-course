@@ -49,7 +49,7 @@ python3 -c "import importlib.util,sys; spec=importlib.util.spec_from_file_locati
 
 ## ဤ module တွင် မပါဝင်သည့် အကြောင်းအရာများ
 
-- Admission ပြုလုပ်ခြင်း နှင့် organization, site, tag များ စီမံခြင်း — Module 05။
+- Admission ပြုလုပ်ခြင်း နှင့် organization, site, tag များ စီမံခြင်း — Module 06။
 - Inventory tab များ, package deployment နှင့် profile အသေးစိတ် — Module 07။
 - Patch management နှင့် automation — Module 08။
 - Dashboard triage နှင့် အဆင့်လိုက် ချိတ်ဆက်မှု စစ်ဆေးခြင်း — Module 09။

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module 07 lab — patch management and automation (stdlib, offline, deterministic).
+"""Module 08 lab — patch management and automation (stdlib, offline, deterministic).
 
 Fixtures simulate what the OpenUEM console shows in the security view and what
 an administrator derives from it. No network access, no wall-clock reads.

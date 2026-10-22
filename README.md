@@ -3,7 +3,7 @@
 Self-hosted endpoint management ကို လက်တွေ့ လေ့လာရန် မြန်မာဘာသာ course။
 OpenUEM ကို lab တွင် တည်ဆောက်ခြင်းမှ စ၍ agent ဖြန့်ခြင်း၊ enrollment၊
 software deployment၊ profile၊ patch စီမံခန့်ခွဲမှု၊ report နှင့်
-troubleshooting အထိ module ဆယ်ခုဖြင့် ဖွဲ့စည်းထားသည်။
+troubleshooting အထိ module ဆယ့်နှစ်ခုဖြင့် ဖွဲ့စည်းထားသည်။
 
 ## ဤ course က ဘယ်သူအတွက်လဲ
 
@@ -29,6 +29,16 @@ Output များကို `# simulated output — illustrative` ဟု အမ
 | 08 | Patch Management | update visibility၊ maintenance window၊ compliance |
 | 09 | Reporting & Troubleshooting | report၊ dashboard၊ log၊ connectivity |
 | 10 | Capstone | two sites၊ three platforms၊ incident နှင့် review |
+| 11 | Server & Agent Upgrade | console/command upgrade၊ wave၊ rollback |
+| 12 | RustDesk Remote Desktop | hbbs/hbbr၊ client၊ OpenUEM integration |
+
+## ဘာသာစကား နှစ်မျိုး
+
+Module တိုင်းတွင် မြန်မာဘာသာ ဖိုင်များ (`README.md`, `explanation.md`,
+`exercise.md`, `solution.md`) နှင့်အတူ **English edition** ဖြစ်သော
+`README.en.md`, `explanation.en.md`, `exercise.en.md`, `solution.en.md`
+ဖိုင်များ ပါဝင်သည်။ Lab (`lab.py`) သည် ဘာသာစကား နှစ်မျိုးလုံးအတွက်
+တစ်ခုတည်း ဖြစ်သည်။
 
 ## Folder တည်ဆောက်ပုံ
 

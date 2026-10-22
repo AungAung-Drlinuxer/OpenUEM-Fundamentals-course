@@ -2,8 +2,9 @@
 
 Source outline supplied by the learner (7 sections) plus an explicit request:
 cover PostgreSQL setup and **Ubuntu 24.04 native installation** as well as the
-Docker/Podman deployment. The material is therefore split into ten modules so
-each installation path gets its own lab and no module carries two jobs.
+Docker/Podman deployment. The material is therefore split into twelve modules so
+each installation path and both follow-on topics (upgrades, RustDesk) get their
+own lab and no module carries two jobs.
 
 | Module | Folder | အကြောင်းအရာ |
 |---|---|---|
@@ -17,6 +18,8 @@ each installation path gets its own lab and no module carries two jobs.
 | 08 | `08_patch_automation` | Patch management and automation — visibility, windows, validation, compliance |
 | 09 | `09_reporting_troubleshooting` | Reporting, dashboard alerts and layered troubleshooting |
 | 10 | `10_capstone` | Capstone lab — two sites, three platforms, incident and review |
+| 11 | `11_upgrade` | Server and agent upgrades — console/command paths, waves, rollback |
+| 12 | `12_rustdesk` | RustDesk remote desktop — server, clients, OpenUEM integration |
 
 ## Lesson-level mapping
 
@@ -114,8 +117,28 @@ each installation path gets its own lab and no module carries two jobs.
 5. Incident simulation and recovery
 6. Evidence pack and review discussion
 
+### Module 11 — Server and agent upgrades
+1. Upgrade as routine maintenance and the server-first order
+2. Server upgrades from Admin → Update Servers
+3. Docker upgrade path (`docker compose pull`, `--force-recreate`)
+4. Agent upgrades from Admin → Update Agents
+5. Task states, scheduling and dashboard counters
+6. Rollback to a previous release
+7. Pre- and post-upgrade checklists
+
+### Module 12 — RustDesk remote desktop
+1. Three remote assistance paths (VNC, RDP, RustDesk)
+2. RustDesk architecture: hbbs, hbbr, public key
+3. Running RustDesk Server OSS with Docker
+4. Ports and firewall rules
+5. Installing Windows, Linux and macOS clients
+6. Pointing clients at a self-hosted server
+7. OpenUEM's RustDesk integration and session flow
+8. Security cautions
+
 ## Conventions
-- One folder per module, exactly five files.
+- One folder per module, exactly five required files; every module also ships
+  four English-edition files (`*.en.md`).
 - Each module: 6 exercises, one deterministic stdlib lab, solutions that match
   real lab output.
 - Formal Burmese prose, English technical terms, no colloquial particles.
